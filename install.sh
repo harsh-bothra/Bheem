@@ -49,7 +49,7 @@ alias nuclear=/root/arsenal/nuclear.sh
 alias getsec=/root/arsenal/getsec.sh
 alias rex=/root/arsenal/rex.sh
 alias Bheem=/root/arsenal/Bheem.sh
-alias reverse=/root/arsenal/reverse.sh
+alias reverse=/root/arsenal/reverse.sh" >> ~/.bashrc
 source ~/.bashrc;
 export  PATH=$PATH:/root/go/bin; 
 
