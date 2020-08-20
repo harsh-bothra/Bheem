@@ -36,8 +36,7 @@ git clone https://github.com/devanshbatham/FavFreak $dir/FavFreak;
 git clone https://github.com/m4ll0k/SecretFinder $dir/SecretFinder;
 git clone https://github.com/YashGoti/crtsh.py $dir/crtsh.py;
 
-echo "alias osmedeus='python3 /root/Tools/Osmedeus/osmedeus.py -m "subdomain,portscan,vuln,git,burp,ip" -t'
-alias dirsearch='python3 /root/Tools/dirsearch/dirsearch.py -e php,asp,js,aspx,jsp,py,txt,conf,config,bak,backup,swp,old,db,sql -t 300 -u'
+echo "alias dirsearch='python3 /root/Tools/dirsearch/dirsearch.py -e php,asp,js,aspx,jsp,py,txt,conf,config,bak,backup,swp,old,db,sql -t 300 -u -q'
 alias ffuf=/root/go/bin/ffuf
 alias httpx=/root/go/bin/httpx
 alias resolver=/root/arsenal/resolver.sh
