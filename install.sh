@@ -9,9 +9,10 @@ sudo apt-get install git;
 sudo su;
 mkdir /root/Tools;
 mkdir /root/Recon;
-mkdir /root/arsenal;
+cp /root/Bheem/arsenal/* /root/arsenal/;
 dir=/root/Tools;
 go get -u github.com/m4ll0k/Aron;
+git clone https://github.com/tomnomnom/gf $dir/gf;
 go get github.com/Ice3man543/SubOver;
 git clone https://github.com/tomnomnom/hacks $dir/hacks;
 go get -u github.com/tomnomnom/assetfinder;
@@ -36,7 +37,9 @@ git clone https://github.com/devanshbatham/FavFreak $dir/FavFreak;
 git clone https://github.com/m4ll0k/SecretFinder $dir/SecretFinder;
 git clone https://github.com/YashGoti/crtsh.py $dir/crtsh.py;
 
-echo "alias dirsearch='python3 /root/Tools/dirsearch/dirsearch.py -e php,asp,js,aspx,jsp,py,txt,conf,config,bak,backup,swp,old,db,sql -t 300 -u -q'
+echo "
+alias osmedeus='python3 /root/Tools/Osmedeus/osmedeus.py -m "subdomain,portscan,vuln,git,burp,ip" -t'
+alias dirsearch='python3 /root/Tools/dirsearch/dirsearch.py -e php,asp,js,aspx,jsp,py,txt,conf,config,bak,backup,swp,old,db,sql -t 300 -u'
 alias ffuf=/root/go/bin/ffuf
 alias httpx=/root/go/bin/httpx
 alias resolver=/root/arsenal/resolver.sh
@@ -48,7 +51,8 @@ alias nuclear=/root/arsenal/nuclear.sh
 alias getsec=/root/arsenal/getsec.sh
 alias rex=/root/arsenal/rex.sh
 alias Bheem=/root/arsenal/Bheem.sh
-alias reverse=/root/arsenal/reverse.sh" >> ~/.bashrc
+alias reverse=/root/arsenal/reverse.sh
+" >> ~/.bashrc
 source ~/.bashrc;
 export  PATH=$PATH:/root/go/bin; 
 
