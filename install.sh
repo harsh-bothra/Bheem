@@ -9,6 +9,7 @@ sudo apt-get install git;
 sudo su;
 mkdir /root/Tools;
 mkdir /root/Recon;
+mkdir /root/wordlist;
 mv /root/Bheem/arsenal /root/arsenal;
 dir=/root/Tools;
 go get -u github.com/m4ll0k/Aron;
@@ -25,6 +26,7 @@ GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/cmd/subfinder;
 GO111MODULE=on go get -u github.com/projectdiscovery/chaos-client/cmd/chaos;
 GO111MODULE=on go get -u -v github.com/hahwul/dalfox;
 go get github.com/ffuf/ffuf;
+wget https://raw.githubusercontent.com/Mad-robot/recon-tools/master/dicc.txt -o /root/wordlist/dicc.txt
 GO111MODULE=on go get -u -v github.com/lc/gau;
 go get -u github.com/tomnomnom/gf;
 git clone https://github.com/1ndianl33t/Gf-Patterns;
@@ -58,6 +60,7 @@ alias getsec=/root/arsenal/getsec.sh
 alias rex=/root/arsenal/rex.sh
 alias Bheem=/root/arsenal/Bheem.sh
 alias reverse=/root/arsenal/reverse.sh
+alias smuhhling=/root/arsenal/smuggler.sh
 " >> ~/.bashrc
 
 source ~/.bashrc;
