@@ -9,10 +9,12 @@ sudo apt-get install git;
 sudo su;
 mkdir /root/Tools;
 mkdir /root/Recon;
+mkdir /root/wordlist;
 mv /root/Bheem/arsenal /root/arsenal;
 dir=/root/Tools;
 go get -u github.com/m4ll0k/Aron;
 go get github.com/Ice3man543/SubOver;
+go get github.com/ffuf/ffuf;
 git clone https://github.com/tomnomnom/hacks $dir/hacks;
 go get -u github.com/tomnomnom/assetfinder;
 go get github.com/tomnomnom/hacks/waybackurls;
@@ -24,6 +26,7 @@ GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/cmd/subfinder;
 GO111MODULE=on go get -u github.com/projectdiscovery/chaos-client/cmd/chaos;
 GO111MODULE=on go get -u -v github.com/hahwul/dalfox;
 go get github.com/ffuf/ffuf;
+wget https://raw.githubusercontent.com/Mad-robot/recon-tools/master/dicc.txt -o /root/wordlist/dicc.txt
 GO111MODULE=on go get -u -v github.com/lc/gau;
 go get -u github.com/tomnomnom/gf;
 git clone https://github.com/1ndianl33t/Gf-Patterns;
@@ -40,6 +43,7 @@ GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/devanshbatham/FavFreak $dir/FavFreak;
 git clone https://github.com/m4ll0k/SecretFinder $dir/SecretFinder;
 git clone https://github.com/YashGoti/crtsh.py $dir/crtsh.py;
+git clone https://github.com/defparam/smuggler $dir/smuggler;
 
 echo "
 alias osmedeus='python3 /root/Tools/Osmedeus/osmedeus.py -m "subdomain,portscan,vuln,git,burp,ip" -t'
@@ -56,6 +60,7 @@ alias getsec=/root/arsenal/getsec.sh
 alias rex=/root/arsenal/rex.sh
 alias Bheem=/root/arsenal/Bheem.sh
 alias reverse=/root/arsenal/reverse.sh
+alias smuhhling=/root/arsenal/smuggler.sh
 " >> ~/.bashrc
 
 source ~/.bashrc;

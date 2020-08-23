@@ -40,6 +40,14 @@ for url in $(cat $1); do
         echo  "${red} Performing : ${green} Heartbleed Scan ${reset}"
         echo '----------------------------------------------------------------------'
         $dir/heartbleed.sh $url;
+        echo '______________________________________________________________________'
+        echo  "${red} Performing : ${green} Http request smuggling ${reset}"
+        echo '----------------------------------------------------------------------'
+	$dir/smuggler.sh $url;
+	echo '______________________________________________________________________'
+        echo  "${red} Performing : ${green} Http request smuggling ${reset}"
+        echo '----------------------------------------------------------------------'
+	$dir/ffuf.sh $url;
 	echo '_____________________________________________'
         echo  "${red} Finished Testing : ${green} ${url} ${reset}"
         echo '---------------------------------------------'
