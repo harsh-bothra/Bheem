@@ -13,6 +13,7 @@ mv /root/Bheem/arsenal /root/arsenal;
 dir=/root/Tools;
 go get -u github.com/m4ll0k/Aron;
 go get github.com/Ice3man543/SubOver;
+go get github.com/ffuf/ffuf;
 git clone https://github.com/tomnomnom/hacks $dir/hacks;
 go get -u github.com/tomnomnom/assetfinder;
 go get github.com/tomnomnom/hacks/waybackurls;
@@ -40,6 +41,7 @@ GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/devanshbatham/FavFreak $dir/FavFreak;
 git clone https://github.com/m4ll0k/SecretFinder $dir/SecretFinder;
 git clone https://github.com/YashGoti/crtsh.py $dir/crtsh.py;
+git clone https://github.com/defparam/smuggler $dir/smuggler;
 
 echo "
 alias osmedeus='python3 /root/Tools/Osmedeus/osmedeus.py -m "subdomain,portscan,vuln,git,burp,ip" -t'
