@@ -25,7 +25,7 @@ Example: ``Bheem target.txt``
 
 6. This will keep ``Bheem`` running even if the SSH Connection is terminated or you turn off your local machine.
 
-~ Make sure to replace your Chaos API key otherwise comment that part.
+~ Make sure to replace your Chaos API key (Hardcoded key is not Valid), otherwise comment that part.
 
 # Tools Used 
 
