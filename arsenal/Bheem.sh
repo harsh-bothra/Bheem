@@ -43,11 +43,11 @@ for url in $(cat $1); do
         echo '______________________________________________________________________'
         echo  "${red} Performing : ${green} Http request smuggling ${reset}"
         echo '----------------------------------------------------------------------'
-	$dir/smuggler.sh
+	$dir/smuggler.sh $url;
 	echo '______________________________________________________________________'
         echo  "${red} Performing : ${green} Http request smuggling ${reset}"
         echo '----------------------------------------------------------------------'
-	$dir/ffuf.sh
+	$dir/ffuf.sh $url;
 	echo '_____________________________________________'
         echo  "${red} Finished Testing : ${green} ${url} ${reset}"
         echo '---------------------------------------------'
