@@ -9,10 +9,9 @@ sudo apt-get install git;
 sudo su;
 mkdir /root/Tools;
 mkdir /root/Recon;
-cp /root/Bheem/arsenal/* /root/arsenal/;
+mv /root/Bheem/arsenal /root/arsenal;
 dir=/root/Tools;
 go get -u github.com/m4ll0k/Aron;
-git clone https://github.com/tomnomnom/gf $dir/gf;
 go get github.com/Ice3man543/SubOver;
 git clone https://github.com/tomnomnom/hacks $dir/hacks;
 go get -u github.com/tomnomnom/assetfinder;
@@ -53,6 +52,7 @@ alias rex=/root/arsenal/rex.sh
 alias Bheem=/root/arsenal/Bheem.sh
 alias reverse=/root/arsenal/reverse.sh
 " >> ~/.bashrc
+
 source ~/.bashrc;
 export  PATH=$PATH:/root/go/bin; 
 
