@@ -1,6 +1,6 @@
 #!/bin/sh
 
-dir=/root/Recon/$1
+dir=~/Recon/$1
 
 waybackurls $1 > $dir/$1_urls;gau $1 >> $dir/$1_urls;cat $dir/$1_urls | sort -u > $dir/$1_final_urls;
 gf xss $dir/$1_final_urls | cut -d : -f3- | sort -u > $dir/$1_xss;
