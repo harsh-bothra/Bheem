@@ -156,7 +156,7 @@ echo '---------------------------------------------------------'
       dir=~/arsenal
       for target in $urls
       do 
-	$dir/subtko.sh $target
+	$dir/portscan.sh $target
       done
 echo '_________________________________________________________'
 echo  "${green} Completed : ${red} Port Scanning Done ${reset}"
