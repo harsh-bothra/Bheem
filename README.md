@@ -1,4 +1,4 @@
-# Project Bheem 
+# Bheem: An awesome project! 
 
 Project Bheem is a simple collection of small bash-scripts which runs iteratively to carry out various tools and recon process & store output in an organized way. This project was created initially for automation of Recon for personal usage and was never meant to be public as there is nothing fancy about it but due to request by community, Project Bheem is now Public.  
 Please feel free to improve it in any way you can. There is no secret sauce involved and it's just a set of commands and existing tools written in bash-scripts for simple Recon Automation. 
@@ -100,3 +100,4 @@ Every single application security community member and tool developers. Special 
 13. crt.sh (YashGoti)
 
 ### Please feel free to contribute.
+Suggestions are always welcome, Thankyou!
