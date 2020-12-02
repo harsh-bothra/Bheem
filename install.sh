@@ -3,7 +3,6 @@
 sudo apt-get install python3;
 sudo apt-get install python3-pip;
 sudo apt-get install ruby;
-sudo apt-get install golang;
 sudo apt-get install screen;
 sudo apt-get install git;
 mkdir ~/.gf
@@ -30,8 +29,6 @@ go get github.com/hakluke/hakrawler;
 go get github.com/hakluke/hakrevdns;
 go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/blechschmidt/massdns $dir/massdns;
-cd $dir/massdns; make;
-cp $dir/massdns/bin/massdns /usr/bin/;
 git clone https://github.com/devanshbatham/FavFreak $dir/FavFreak;
 git clone https://github.com/GerbenJavado/LinkFinder $dir/LinkFinder;
 git clone https://github.com/m4ll0k/SecretFinder $dir/SecretFinder;
@@ -44,7 +41,11 @@ git clone https://github.com/1ndianl33t/Gf-Patterns;
 pip3 install -r ~/arsenal/requirements.txt
 mv ~/Gf-Patterns/*.json /root/.gf/;
 rm -rf ~/Gf-Patterns;
-cd ~/.gf; wget https://raw.githubusercontent.com/devanshbatham/ParamSpider/master/gf_profiles/potential.json;
-cd ~/go/bin; wget https://raw.githubusercontent.com/Ice3man543/SubOver/master/providers.json;
 git clone https://github.com/KathanP19/JSFScan.sh $dir/JSFScan.sh;
 mv arsenal ~/arsenal;
+cd ~/arsenal;
+chmod +x *.sh;
+cd $dir/massdns; make;
+cp $dir/massdns/bin/massdns /usr/bin/;
+cd ~/.gf; wget https://raw.githubusercontent.com/devanshbatham/ParamSpider/master/gf_profiles/potential.json;
+cd ~/go/bin; wget https://raw.githubusercontent.com/Ice3man543/SubOver/master/providers.json;
