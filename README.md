@@ -71,6 +71,7 @@ A few features like port scanning might not be working in the current build and 
 19. git-hound
 20. Shuffledns
 21. Massdns
+22. Findomain
 
 ~ Other onliners and tools to be added. 
 
