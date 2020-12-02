@@ -16,7 +16,7 @@ A few features like port scanning might not be working in the current build and 
 
 # Pre-Requisite
 
-1. Make sure to have "Go" latest versions installed and paths are correctly set.
+1. Make sure to have "Go" latest version is installed and paths are correctly set.
 
 # Installation
 
@@ -31,7 +31,7 @@ A few features like port scanning might not be working in the current build and 
 5. To use it over vps for performing recon on larger set of targets perform following command:
 
 ``screen -S <screen_name>``
-``~/arsenaal/Bheem.sh -h``
+``~/arsenal/Bheem.sh -h``
 
 6. This will keep ``Bheem`` running even if the SSH Connection is terminated or you turn off your local machine.
 
