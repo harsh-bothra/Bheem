@@ -20,7 +20,7 @@ go install -v github.com/lukasikic/subzy;
 go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei;
 git clone https://github.com/projectdiscovery/nuclei-templates $dir/nuclei-templates;
 go get github.com/haccer/subjack;
-go get -v github.com/projectdiscovery/subfinder/cmd/subfinder;
+GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
 go get -u github.com/projectdiscovery/chaos-client/cmd/chaos;
 go get -u -v github.com/hahwul/dalfox;
 go get -u -v github.com/lc/gau;
@@ -44,7 +44,7 @@ git clone https://github.com/1ndianl33t/Gf-Patterns;
 pip3 install -r ~/arsenal/requirements.txt
 mv ~/Gf-Patterns/*.json /root/.gf/;
 rm -rf ~/Gf-Patterns;
-wget https://raw.githubusercontent.com/devanshbatham/ParamSpider/master/gf_profiles/potential.json;
-mv /root/potential.json ~/.gf/;
+cd ~/.gf; wget https://raw.githubusercontent.com/devanshbatham/ParamSpider/master/gf_profiles/potential.json;
+cd ~/go/bin; wget https://raw.githubusercontent.com/Ice3man543/SubOver/master/providers.json;
 git clone https://github.com/KathanP19/JSFScan.sh $dir/JSFScan.sh;
 mv arsenal ~/arsenal;
