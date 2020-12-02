@@ -1,0 +1,13 @@
+mmh3==2.5.1
+jsbeautifier
+idna==2.9
+requests==2.23.0
+requests_file
+argparse
+jsbeautifier
+lxml
+certifi>=2020.11.8
+chardet<3.1.0
+urllib3<=1.24.3
+cryptography>1.3.4
+PySocks<=1.6.8
