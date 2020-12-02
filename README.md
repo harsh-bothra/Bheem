@@ -16,33 +16,33 @@ A few features like port scanning might not be working in the current build and 
 
 # Pre-Requisite
 
-1. Make sure to have "Go" installed and paths are correctly set.
+1. Make sure to have "Go" latest versions installed and paths are correctly set.
 
 # Installation
 
 1. Clone the repository
-2. Run the following script to install necessary tools: ``bash install.sh``
-3. The ``arsenal`` directory contains a set of small scripts used to automate Bheem. 
-4. Simply run following command to see all the supported options provided in Bheem:
+2. Run the following script to install necessary tools: ``sh install.sh``
+3. The ``arsenal`` directory contains a set of small scripts used to automate Bheem. Give executable permissions to scripts in this directory.
+4. Navigate to ``~/arsenal`` directory and Simply run following command to see all the supported options provided in Bheem:
 
-``Bheem -h`` 
+``./Bheem.sh -h`` 
 
 
 5. To use it over vps for performing recon on larger set of targets perform following command:
 
 ``screen -S <screen_name>``
-``Bheem -h``
+``~/arsenaal/Bheem.sh -h``
 
 6. This will keep ``Bheem`` running even if the SSH Connection is terminated or you turn off your local machine.
 
-~ Make sure to replace your Chaos API key (Hardcoded key is not Valid), otherwise comment that part.
 
 # Sample Usage
 
-1. Small Scope Recon : ``Bheem -d test.com -S``
-2. Medium Scope Recon : ``Bheem -u test.com -M``
+1. Small Scope Recon : ``Bheem -t targetfile -S``
+2. Medium Scope Recon : ``Bheem -t targetfile -M``
 3. Large Scope Recon : ``Bheem -t targetfile -L``
 
+``targetfile`` contains list of domains to perform Recon. For example: `targettest.com`
 
 # Side Notes
 
@@ -58,28 +58,37 @@ A few features like port scanning might not be working in the current build and 
 6. AMASS
 7. Subfinder
 8. Assetfinder
-9. Chaos Client
+9. JSScan
 10. FavFreak
 11. Waybackurls 
 12. Gau
 13. Parallel
 14. asnip
-15. ffuf
+15. dirsearch
 16. gowitness
 17. subjack
-18. smuggler 
+18. CORS Scanner 
 19. git-hound
+20. Shuffledns
+21. Massdns
 
-~ A lot of other onliners and tools to be added. 
+~ Other onliners and tools to be added. 
+
+# PR Notes 
+
+1. If there is any GO Version/Path related issues, please do not create a PR for it. 
+2. Please create a PR for the Feature Request.
+3. If there is any missing part in ``install.sh`` please create a PR for it. 
+4. For specific tool related issue such as installation for `X` tool used by Bheem is not successful, please do not create a PR for it. As this issue is required to be Raise to the specific Tool Owner. 
 
 # Future Plans/Under Development
 
 _1. Adding Directory Enumeration_
-2. Adding Subdomain Bruteforcing
+_2. Adding Subdomain Bruteforcing_
 _3. Adding HTTP Desync Scanner_
 4. Adding Vulnerable Software & Exploit Suggester
-5. Adding Oneline Scanner for CORS, CRLF & Other Vectors
-_6. Adding Visual Recon_
+5. Adding Oneline Scanner for _CORS_, CRLF & Other Vectors
+6. Adding Visual Recon
 
 # Special Thanks
 
