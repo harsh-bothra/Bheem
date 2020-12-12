@@ -47,6 +47,7 @@ A few features like port scanning might not be working in the current build and 
 # Side Notes
 
 1. If you don't want to use specific module, just comment it out and it won't be used anymore.
+2. Change the Blind XSS Payload in the following file `/Bheem/arsenal/autoxss.sh` to yours . Visit [XSS Hunter](https://xsshunter.com/) to get your Blind XSS Payload
 
 # Tools Used 
 
