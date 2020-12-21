@@ -60,9 +60,11 @@ large_recon(){
 
 }
 
-while getopts ":t:SMLh" opt; do
+while getopts ":t:eSMLh" opt; do
 	case ${opt} in
 		t ) target=$OPTARG
+		    ;;
+		e ) exclude=$OPTARG
 		    ;;
 		S ) small_recon
 		    ;;
@@ -72,6 +74,7 @@ while getopts ":t:SMLh" opt; do
 		    ;;
 		\? | h ) echo "Usage  :";
 			 echo "         -t	List of target";
+			 echo "		-e	Exclude target.(eg: sub1.ex.com,sub2.ex.com)";
 			 echo "         -S	Perform Small Recon";
 			 echo "         -M	Perform Medium Recon";
 			 echo "         -L	Perform Large Recon";
