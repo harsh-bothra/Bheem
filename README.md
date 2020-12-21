@@ -44,6 +44,12 @@ A few features like port scanning might not be working in the current build and 
 
 ``targetfile`` contains list of domains to perform Recon. For example: `targettest.com`
 
+### Exclude out-of-scope subdomains
+
+Bheem has a flag to remove out-of-scope subdomains from the scan. To do so you have to use "-e" flag with comma separated subdomains.
+
+``Bheem -t targetfile -S -e sub.ex.com,sub1.ex.com``
+
 # Side Notes
 
 1. If you don't want to use specific module, just comment it out and it won't be used anymore.
