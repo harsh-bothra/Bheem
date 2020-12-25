@@ -4,6 +4,7 @@ results=~/Recon/$domain
 red=`tput setaf 1`
 green=`tput setaf 2`
 reset=`tput sgr0`
+script_name="Small_Recon"
 
 for domain in $(cat $1); do
     echo '-----------------------------------------------------'
@@ -126,3 +127,6 @@ for domain in $(cat $1); do
     echo '-----------------------------------------------------'
 
 done
+
+# Notify discord
+python3 discord_bot.py ${script_name} ${domain} ${reset}
