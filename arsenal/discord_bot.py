@@ -1,7 +1,5 @@
 import requests
 import sys
-
-sys.path.insert(1, '../')
 import config_file
 
 def DiscordWebHook(discordUrl):
