@@ -192,4 +192,4 @@ for domain in $(cat $1); do
 done
 
 # Notify discord
-python3 discord_bot.py ${script_name} ${domain} ${reset}
+python3 discord_bot.py ${script_name} $1 ${reset}
