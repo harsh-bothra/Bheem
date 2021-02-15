@@ -40,10 +40,10 @@ A few features like port scanning might not be working in the current build and 
  - If you are lazy like me and hate wasting time in setup don't worry,we have created the docker env. to use Bheem without any setup
  - we have integrate Bheem with [Hacktools](https://github.com/xavier9909/IIEC-RISE-DOCKER-1.0-HackTools)
       
-     ``docker pull xavier99909/hacktools_bheem`` 
-     ``docker run -it xavier9909/hacktools_bheem``
-     ``cd arsenal && ./Bheem.sh
-     ``or just simply type "bheem" from any directory``
+   -  ``docker pull xavier99909/hacktools_bheem`` 
+   -  ``docker run -it xavier9909/hacktools_bheem``
+   -  ``cd arsenal && ./Bheem.sh
+   -  ``or just simply type bheem from any directory``
  - Simply interect with the terminal and hit the target
  - one liner image publishing soon
     
