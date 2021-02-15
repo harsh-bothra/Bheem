@@ -41,6 +41,8 @@ A few features like port scanning might not be working in the current build and 
  - we have integrate Bheem with [Hacktools](https://github.com/xavier9909/IIEC-RISE-DOCKER-1.0-HackTools)
       
      ``docker pull xavier99909/hactools_bheem`` 
+ - Simply interect with the terminal and hit the target
+ - one liner image publishing soon
     
 
 # Sample Usage
@@ -91,12 +93,13 @@ A few features like port scanning might not be working in the current build and 
 
 # Future Plans/Under Development
 
-_1. Adding Directory Enumeration_
-_2. Adding Subdomain Bruteforcing_
-_3. Adding HTTP Desync Scanner_
+1. Adding Directory Enumeration_
+2. Adding Subdomain Bruteforcing_
+3. Adding HTTP Desync Scanner_
 4. Adding Vulnerable Software & Exploit Suggester
 5. Adding Oneline Scanner for _CORS_, CRLF & Other Vectors
 6. Adding Visual Recon
+7. Adding Web Based Handling Of Results
 
 # Special Thanks
 
