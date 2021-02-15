@@ -35,6 +35,13 @@ A few features like port scanning might not be working in the current build and 
 
 6. This will keep ``Bheem`` running even if the SSH Connection is terminated or you turn off your local machine.
 
+# Docker Installation
+    
+ - If you are lazy like me and hate wasting time in setup don't worry,we have created the docker env. to use Bheem without any setup
+ - we have integrate Bheem with [Hacktools](https://github.com/xavier9909/IIEC-RISE-DOCKER-1.0-HackTools)
+      
+     ``docker pull xavier99909/hactools_bheem`` 
+    
 
 # Sample Usage
 
@@ -51,14 +58,14 @@ A few features like port scanning might not be working in the current build and 
 
 # Tools Used 
 
-1. Nuclei
-2. HTTPX
-3. GF & GF-Patterns
-4. Secret Finder
-5. Heartbleed Oneliner
-6. AMASS
-7. Subfinder
-8. Assetfinder
+1. Nuclei                             
+2. HTTPX                            
+3. GF & GF-Patterns                  
+4. Secret Finder                     
+5. Heartbleed Oneliner               
+6. AMASS                             
+7. Subfinder                          
+8. Assetfinder      
 9. JSScan
 10. FavFreak
 11. Waybackurls 
