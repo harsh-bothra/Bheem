@@ -42,7 +42,7 @@ A few features like port scanning might not be working in the current build and 
       
    -  ``docker pull xavier99909/hacktools_bheem`` 
    -  ``docker run -it xavier9909/hacktools_bheem``
-   -  ``cd arsenal && ./Bheem.sh
+   -  ``cd arsenal && ./Bheem.sh``
    -  ``or just simply type bheem from any directory``
  - Simply interect with the terminal and hit the target
  - one liner image publishing soon
