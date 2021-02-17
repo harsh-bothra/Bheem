@@ -35,6 +35,18 @@ A few features like port scanning might not be working in the current build and 
 
 6. This will keep ``Bheem`` running even if the SSH Connection is terminated or you turn off your local machine.
 
+# Docker Installation
+    
+ - If you are lazy like me and hate wasting time in setup don't worry,we have created the docker env. to use Bheem without any setup
+ - we have integrate Bheem with [Hacktools](https://github.com/xavier9909/IIEC-RISE-DOCKER-1.0-HackTools)
+      
+   -  ``docker pull xavier99909/hacktools_bheem`` 
+   -  ``docker run -it xavier9909/hacktools_bheem``
+   -  ``cd arsenal && ./Bheem.sh``
+   -  ``or just simply type bheem from any directory``
+ - Simply interect with the terminal and hit the target
+ - one liner image publishing soon
+    
 
 # Sample Usage
 
@@ -51,14 +63,14 @@ A few features like port scanning might not be working in the current build and 
 
 # Tools Used 
 
-1. Nuclei
-2. HTTPX
-3. GF & GF-Patterns
-4. Secret Finder
-5. Heartbleed Oneliner
-6. AMASS
-7. Subfinder
-8. Assetfinder
+1. Nuclei                             
+2. HTTPX                            
+3. GF & GF-Patterns                  
+4. Secret Finder                     
+5. Heartbleed Oneliner               
+6. AMASS                             
+7. Subfinder                          
+8. Assetfinder      
 9. JSScan
 10. FavFreak
 11. Waybackurls 
@@ -84,12 +96,13 @@ A few features like port scanning might not be working in the current build and 
 
 # Future Plans/Under Development
 
-_1. Adding Directory Enumeration_
-_2. Adding Subdomain Bruteforcing_
-_3. Adding HTTP Desync Scanner_
+1. Adding Directory Enumeration_
+2. Adding Subdomain Bruteforcing_
+3. Adding HTTP Desync Scanner_
 4. Adding Vulnerable Software & Exploit Suggester
 5. Adding Oneline Scanner for _CORS_, CRLF & Other Vectors
 6. Adding Visual Recon
+7. Adding Web Based Handling Of Results
 
 # Special Thanks
 
