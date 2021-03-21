@@ -57,3 +57,5 @@ cd ~/go/bin; wget https://raw.githubusercontent.com/Ice3man543/SubOver/master/pr
 git clone https://github.com/KathanP19/JSFScan.sh $dir/JSFScan.sh;
 mv arsenal ~/arsenal;
 
+
+
