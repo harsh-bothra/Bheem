@@ -38,8 +38,7 @@ git clone https://github.com/maurosoria/dirsearch $dir/dirsearch;
 git clone https://github.com/ozguralp/gmapsapiscanner $dir/gmapsapiscanner;
 go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns;
 git clone https://github.com/1ndianl33t/Gf-Patterns $dir/Gf-Patterns;
-pip3 install corscanner
-pip3 install -r ~/Tools/*/requirements.txt;
+find ~/Tools/*/requirements.txt  -exec pip3 install -r {} \;
 mv $dir/Gf-Patterns/*.json /root/.gf/;
 rm -r $dir/Gf-Patterns;
 git clone https://github.com/KathanP19/JSFScan.sh $dir/JSFScan.sh;
