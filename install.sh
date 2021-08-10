@@ -4,6 +4,7 @@ sudo apt-get install python3;
 sudo apt-get install python3-pip;
 sudo apt-get install ruby;
 sudo apt-get install screen;
+sudo apt-get install libpcap-dev;
 sudo apt-get install git;
 mkdir ~/.gf
 mkdir ~/Tools;
